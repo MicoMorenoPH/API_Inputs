@@ -1,0 +1,82 @@
+1. WHAT IS WEB API 
+
+API (Application Programming Interface)
+    - HTTP based services.
+
+
+These services can then be consumed by a broad range of clients like
+a. browser
+b. mobile application
+c. desktop application 
+d. IOTs 
+
+
+REST API
+
+REST constraints
+> Client Server - client send request , server response .
+> Stateless - 
+> Cacheable
+> Uniform Interface
+
+Data Entities 
+
+
+URI - uniform resource identifier
+> /Employees [URI] GET [verb] gets list of employee [outcme]
+> /Employees[URI]/1 [id]  GET [verb] gets employee with id = 1 [outcme]
+> /Employees[URI] POST [verb] create new request [outcme]
+> /Employees[URI]/1 [id] PUT [verb] updates employee with id = 1 [outcme]
+> /Employees[URI]/1 [id] DELETE [verb] deletes employee with id = 1 [outcme]
+
+
+
+2. CREATING WEB API PROJECT
+
+VALUES CONTROLLER : inherits by API namespace
+
+> set routes [WebApiConfig.cs]
+
+
+3. HTTP GET PUT POST DELETE
+
+4 actions that can be performed on a database table row
+> C create
+> R read a row
+> U update a row
+> D delete a row
+
+4 actions corespondes to database action [HTTP VERBS]
+> P post
+> G get
+> P put
+> D delete
+
+HTTP - TERMS AND CONCEPTS
+> Request Verbs [GET,POST,PUT,DELETE]
+> Request Header [what type of reponse is required]
+> Request Body [data send to server]
+> Response Body [data send as response from the request of client]
+> Response Status code [the status of the request]
+
+TOOLS to use API
+> fiddler
+  [CODE]
+	> Content-Type
+	> Accept header [application/json]
+
+
+5. ASP NEW WEB API and SQL SERVER [Entity framwork]
+
+
+
+
+
+
+
+
+
+
+
+
+

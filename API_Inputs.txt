@@ -66,8 +66,25 @@ TOOLS to use API
 	> Accept header [application/json]
 
 
-5. ASP NEW WEB API and SQL SERVER [Entity framwork]
+4. ASP NEW WEB API and SQL SERVER [Entity framwork]
 
+	A. Create web api project
+	B. Create table on the database
+
+	C. Add project "class library"
+	D. remove class1.cs
+	E. Add ADO.NET Entity Data Model
+
+
+5. ASP NET WEB API Content Negotiation.
+
+- content negotiation. [tje response of data from server to client]
+- accept header : application/xml
+- accept header : application/json
+
+
+6. MEDIA TYPE FOPRMATTER
+MediaTypeFormatter 
 
 
 

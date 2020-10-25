@@ -88,10 +88,10 @@ MediaTypeFormatter
 
 
 
+7. Implementing POST method
 
-
-
-
+- [FROM BODY] attribute , declaring that the data will come from the request body.
+- CLIENT MAKE A REQUEST [Request consist of REQUEST HEADER/ URI / REQUEST BODY]
 
 
 
